@@ -34,7 +34,32 @@
     /* line-height: 53px; */
 }
 
-
-.actions > a {
-    color: red;
+.more-link {
+    float: right;
+    margin-top: 8px;
 }
+
+.actions > * {
+    color: red;
+    /* width: 60px; */
+}
+
+
+.push-right {
+    float: right;
+}
+
+.comments {
+    outline: 1px solid green;
+}
+
+.comments > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.comment-body .username{
+    display: inline;
+}
+
+
