@@ -1,0 +1,40 @@
+
+* {
+    /* 
+    memorize this
+    */
+    box-sizing: border-box;
+    /*  
+    or bookmark a page with this code
+    or memorize how to google for it    
+    */
+
+    outline: 1px solid red;
+}
+
+.sidebar-header > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* .sidebar-header > * > * { */
+    /* style a grandchild of .sidebar-header */
+/* } */
+
+.profile-pic {
+    background-image: url(../images/10731800_1493307807620537_1378917932_a.jpg);
+    background-size: cover;
+    /* background-size: cover keeps the aspect ratio, but resizes to fit*/
+    width: 32px;
+    height: 32px;    
+    /* margin-top: 10px; */
+}
+
+.username {
+    /* line-height: 53px; */
+}
+
+
+.actions > a {
+    color: red;
+}
